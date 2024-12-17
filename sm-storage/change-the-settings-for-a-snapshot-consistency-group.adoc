@@ -1,0 +1,80 @@
+---
+permalink: sm-storage/change-the-settings-for-a-snapshot-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, settings, snapshot, consistency group 
+summary: Snapshot整合性グループの設定では、グループ名、自動削除設定、許可されるSnapshotイメージの最大数を変更できます。 
+---
+= Snapshot整合性グループの設定の変更
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshot整合性グループの設定では、グループ名、自動削除設定、許可されるSnapshotイメージの最大数を変更できます。
+
+.手順
+. メニューを選択します。Storage [Snapshots]。
+. スナップショット・コンシステンシ・グループ*タブをクリックします
+. 編集するSnapshot整合性グループを選択し、*表示/設定の編集*をクリックします。
++
+[Snapshot整合性グループ設定]ダイアログボックスが表示されます。
+
+. Snapshot整合性グループの設定を適宜変更します。
++
+.フィールドの詳細
+[%collapsible]
+====
+[cols="25h,~"]
+|===
+| 設定 | 製品説明 
+
+
+ a| 
+* Snapshot整合グループ設定*
+
+
+
+ a| 
+名前
+ a| 
+Snapshot整合性グループの名前を変更できます。
+
+
+
+ a| 
+自動削除
+ a| 
+指定した上限を超えたSnapshotイメージを自動的に削除する場合は、チェックボックスをオンのままにします。上限を変更するには、スピンボックスを使用します。このチェックボックスをオフにすると、32個のイメージが作成された時点でSnapshotイメージの作成が停止します。
+
+
+
+ a| 
+Snapshotイメージの上限
+ a| 
+Snapshotグループで許可されるSnapshotイメージの最大数を変更できます。
+
+
+
+ a| 
+Snapshotスケジュール
+ a| 
+Snapshot整合性グループにスケジュールが関連付けられているかどうかを示します。
+
+
+
+ a| 
+*関連付けられたオブジェクト*
+
+
+
+ a| 
+メンバーボリューム
+ a| 
+Snapshot整合性グループに関連付けられているメンバーボリュームの数を表示できます。
+
+|===
+====
+. [ 保存（ Save ） ] をクリックします。
+

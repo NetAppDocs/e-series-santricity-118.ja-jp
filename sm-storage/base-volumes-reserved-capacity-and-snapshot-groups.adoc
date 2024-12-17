@@ -1,0 +1,48 @@
+---
+permalink: sm-storage/base-volumes-reserved-capacity-and-snapshot-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, base volumes, reserved capacity, snapshot groups 
+summary: Snapshot機能では、ベースボリューム、リザーブ容量、およびSnapshotグループが使用されます。 
+---
+= ベースボリューム、リザーブ容量、およびSnapshotグループ
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshot機能では、ベースボリューム、リザーブ容量、およびSnapshotグループが使用されます。
+
+
+
+== ヘエスホリユウム
+
+a_base volume_は、Snapshotイメージのソースとして使用されるボリュームです。ベースボリュームはシックボリュームでもシンボリュームでもかまいません。ベースボリュームはプールまたはボリュームグループに配置できます。
+
+ベースボリュームのSnapshotを作成するには、いつでもインスタントイメージを作成したり、Snapshotの定期的なスケジュールを定義してプロセスを自動化したりできます。
+
+次の図は、Snapshotオブジェクトとベースボリュームの関係を示しています。
+
+image::../media/sam1130-dwg-snapshots-images-overview.gif[SA1130 DWGスナップショットイメージの概要]
+
+^1基本ボリューム；^2^グループ内のSnapshotオブジェクト（イメージおよびリザーブ容量）；^3^ Snapshotグループのリザーブ容量。
+
+
+
+== リザーブ容量とSnapshotグループ
+
+System Managerでは、Snapshotイメージを_ Snapshotグループ_に編成します。System Managerは、Snapshotグループの確立時に、グループのSnapshotイメージを保持し、追加のSnapshotに対する以降の変更を追跡するために、Associated _reserved capacity _を自動的に作成します。
+
+ベースボリュームがボリュームグループに含まれている場合は、リザーブ容量をプールまたはボリュームグループに配置できます。ベースボリュームがプールに含まれている場合は、リザーブ容量をベースボリュームと同じプールに配置する必要があります。
+
+Snapshotグループに対するユーザの操作は必要ありませんが、Snapshotグループではリザーブ容量をいつでも調整できます。また、次の条件に該当する場合は、リザーブ容量の作成を求められることがあります。
+
+* Snapshotグループがまだ作成されていないベースボリュームのSnapshotを作成すると、System ManagerによってSnapshotグループが自動的に作成されます。この操作では、以降のSnapshotイメージの格納に使用されるベースボリュームのリザーブ容量も作成されます。
+* ベースボリュームのSnapshotスケジュールを作成すると、System ManagerによってSnapshotグループが自動的に作成されます。
+
+
+
+
+== 自動削除
+
+Snapshotを使用する場合は、デフォルトオプションを使用して自動削除をオンにします。Snapshotグループの上限である32個のイメージに達すると、自動削除によって最も古いSnapshotイメージが自動的に削除されます。自動削除を無効にすると、最終的にはSnapshotグループの制限を超えるため、Snapshotグループの設定やリザーブ容量の管理を手動で行う必要があります。

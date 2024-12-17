@@ -1,0 +1,16 @@
+---
+permalink: sm-support/what-is-configuration-data.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configuration, data, collect, database 
+summary: '[Collect Configuration Data]を選択すると、RAID構成データベースの現在の状態が保存されます。' 
+---
+= 構成データとは
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+[Collect Configuration Data]を選択すると、RAID構成データベースの現在の状態が保存されます。
+
+RAID構成データベースには、コントローラ上のボリュームグループおよびディスクプールのすべてのデータが含まれています。構成データの収集機能では、のCLIコマンドと同じ情報が保存されます `save storageArray dbmDatabase`。

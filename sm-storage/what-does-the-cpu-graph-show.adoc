@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-does-the-cpu-graph-show.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, cpu, graph, show, capacity, statistics, controller 
+summary: '[CPU]グラフには、各コントローラ（コントローラAとコントローラB）の処理容量の統計が表示されます。CPUは中央処理装置の略語です。ホームページのこのグラフには、ストレージアレイの統計が表示されます。パフォーマンスタイルの物理ビュータブには、ストレージアレイとドライブの統計が表示されます。' 
+---
+= [CPU]グラフには何が表示されますか。
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+[CPU]グラフには、各コントローラ（コントローラAとコントローラB）の処理容量の統計が表示されます。CPUは、_central processing unit_の省略形です。ホームページのこのグラフには、ストレージアレイの統計が表示されます。パフォーマンスタイルの物理ビュータブには、ストレージアレイとドライブの統計が表示されます。
+
+[CPU]グラフには、アレイでの処理に対するCPU処理容量の割合が表示されます。外部I/Oが発生していない場合でも、ストレージオペレーティングシステムがバックグラウンドで処理や監視を実行している可能性があるため、CPU利用率がゼロ以外になることがあります。グラフの特定のポイントにカーソルを合わせると、その時点で使用されている処理機能の割合が表示されます。

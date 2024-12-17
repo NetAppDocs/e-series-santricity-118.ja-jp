@@ -1,0 +1,158 @@
+---
+permalink: san-getstarted/santricity-overview.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, 
+summary: E シリーズシステムには、ストレージプロビジョニングとその他のタスクを行うための SANtricity ソフトウェアが搭載されています。 
+---
+= SANtricityソフトウェアの概要
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+E シリーズシステムには、ストレージプロビジョニングとその他のタスクを行うための SANtricity ソフトウェアが搭載されています。
+
+このサイトでは、次のSANtricity管理インターフェイスの使用方法について説明します。
+
+* System Manager --ネットワーク内の個 々 のストレージアレイの管理に使用するWebベースのインターフェイス。
+* Unified Manager --ネットワーク内のすべてのストレージアレイの表示と管理に使用するWebベースのインターフェイス。
+
+
+
+NOTE: EF600およびEF300ストレージアレイでは、同期ミラーリングまたはシンボリュームはサポートされません。
+
+
+
+== SANtricityシステムマネージャ
+
+System Managerは、Webベースの管理ソフトウェアで、各コントローラに組み込まれています。ユーザインターフェイスにアクセスするには、ブラウザでコントローラのIPアドレスを指定します。セットアップウィザードを使用して、システム設定を開始できます。
+
+System Managerには、次のようなさまざまな管理機能があります。
+
+|===
+
+
+ a| 
+image:../media/sam1130_icon_performance.gif[""]*パフォーマンス*
+ a| 
+I/O レイテンシ、 IOPS 、 CPU 利用率、スループットなど、最大 30 日分のパフォーマンスデータを表示します。
+
+
+
+ a| 
+image:../media/sam1130_icon_volumes.gif[""]*ストレージ*
+ a| 
+プールまたはボリュームグループを使用してストレージをプロビジョニングし、アプリケーションワークロードを作成
+
+
+
+ a| 
+image:../media/sam1130_icon_async_mirroring.gif[""]*データ保護*
+ a| 
+Snapshot 、ボリュームコピー、リモートミラーリングを使用してバックアップやディザスタリカバリを実行できます。
+
+
+
+ a| 
+image:../media/sam1130_icon_controllers.gif[""]*ハードウェア*
+ a| 
+コンポーネントのステータスを確認し、ホットスペアドライブの割り当てなど、コンポーネントに関連するいくつかの機能を実行します。
+
+
+
+ a| 
+image:../media/sam1130_icon_alerts.gif[""]*アラート*
+ a| 
+ストレージアレイで発生している重要なイベントを管理者に通知します。Eメール、SNMPトラップ、syslogを使用してアラートを送信できます。
+
+
+
+ a| 
+image:../media/sam1140_icon_active_directory.gif[""]*アクセス管理*
+ a| 
+ユーザ認証を設定し、ユーザがシステムにログインする際に割り当てられたクレデンシャルの入力を求めます。
+
+
+
+ a| 
+image:../media/sam1130_icon_settings.gif[""]*システム設定*
+ a| 
+SSD キャッシュや自動ロードバランシングなど、その他のシステムパフォーマンス機能を設定します。
+
+
+
+ a| 
+image:../media/sam1130_icon_support.gif[""]*サポート*
+ a| 
+診断データを表示し、アップグレードを管理します。また、ストレージアレイの健常性を監視してテクニカルサポートに自動ディスパッチを送信する AutoSupport を設定します。
+
+|===
+
+
+== SANtricity Unified Manager
+
+Unified Manager は、ドメイン全体の管理に使用する Web ベースのソフトウェアです。EシリーズおよびEFシリーズの新しいすべてのアレイ（E2800、EF280、EF300、E5700、EF570、EF600など）のステータスをまとめて確認できます。選択したストレージアレイに対してバッチ処理を実行することもできます。
+
+Unified Manager は、 Web Services Proxy とともに管理サーバにインストールされます。Unified Manager にアクセスするには、ブラウザを開き、 Web Services Proxy がインストールされているサーバの URL を入力します。
+
+Unified Managerには、次のようなさまざまな管理機能があります。
+
+|===
+
+
+ a| 
+image:../media/artboard_9.png[""]*ストレージアレイの検出*
+ a| 
+組織のネットワークで管理対象のストレージアレイを検索および追加します。1 つのページですべてのストレージアレイのステータスを確認できます。
+
+
+
+ a| 
+image:../media/artboard_11.png[""]*発売開始*
+ a| 
+System Manager のインスタンスを開き、特定のストレージアレイについての管理操作を個別に実行します。
+
+
+
+ a| 
+image:../media/sam1130_icon_system.gif[""]*設定のインポート*
+ a| 
+アラート、 AutoSupport 、ディレクトリサービスなどの設定を 1 つのストレージアレイから複数のアレイに一括でインポートします。
+
+
+
+ a| 
+image:../media/sam1130_icon_async_mirroring.gif[""]*ミラーリング*
+ a| 
+2つのストレージアレイ間で非同期ミラーペアまたは同期ミラーペアを設定します。
+
+
+
+ a| 
+image:../media/artboard_10.png[""]*グループの管理*
+ a| 
+管理しやすいようにストレージアレイをグループにまとめます。
+
+
+
+ a| 
+image:../media/sam1130_icon_upgrade_center.gif[""]*アップグレードセンター*
+ a| 
+複数のストレージアレイのSANtricity OSソフトウェアをアップグレードします。
+
+
+
+ a| 
+image:../media/sam1140_icon_certs.gif[""]*証明書*
+ a| 
+複数のストレージアレイについて、証明書署名要求（ CSR ）の作成、証明書のインポート、既存の証明書の管理を行います。
+
+
+
+ a| 
+image:../media/sam1140_icon_active_directory.gif[""]*アクセス管理*
+ a| 
+ユーザ認証を設定し、ユーザが Unified Manager にログインする際に割り当てられたクレデンシャルの入力を求めます。
+
+|===

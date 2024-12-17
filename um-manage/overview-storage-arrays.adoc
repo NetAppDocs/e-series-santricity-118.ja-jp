@@ -1,0 +1,42 @@
+---
+permalink: um-manage/overview-storage-arrays.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, discover, storage, arrays 
+summary: ストレージリソースを管理するには、まずネットワーク内のストレージアレイを検出する必要があります。 
+---
+= 検出の概要
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ストレージリソースを管理するには、まずネットワーク内のストレージアレイを検出する必要があります。
+
+
+
+== アレイの検出方法
+
+[追加/検出]ページを使用して、組織のネットワークから管理するストレージアレイを検索して追加します。複数のアレイを検出することも、単一のアレイを検出することもできます。そのためには、ネットワークIPアドレスを入力すると、Unified Managerはその範囲内の各IPアドレスへの接続を個別に試行します。
+
+詳細：
+
+* link:considerations-for-discovering-arrays.html["アレイの検出に関する考慮事項"]
+* link:discover-multiple-arrays.html["複数のストレージアレイの検出"]
+* link:discover-single-array.html["単一のアレイの検出"]
+
+
+
+
+== アレイの管理方法
+
+アレイを検出したら、* Manage-All *ページに移動します。このページでは、ネットワーク内で検出されたストレージアレイのリストをスクロールしてステータスを表示し、単一のアレイまたはアレイのグループに対して処理を実行できます。
+
+単一のアレイを管理する場合は、アレイを選択してSystem Managerを開くことができます。
+
+詳細：
+
+* link:launch-considerations.html["System Managerへのアクセスに関する考慮事項"]
+* link:launch-system-manager.html["個 々 のストレージアレイの管理"]
+* link:storage-array-status.html["ストレージアレイのステータスの表示"]
+

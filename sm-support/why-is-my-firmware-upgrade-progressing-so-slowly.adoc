@@ -1,0 +1,16 @@
+---
+permalink: sm-support/why-is-my-firmware-upgrade-progressing-so-slowly.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, firmware, upgrade, slow 
+summary: ファームウェアアップグレードの進行状況は、システムの全体的な負荷によって異なります。 
+---
+= ファームウェアのアップグレードに時間がかかるのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ファームウェアアップグレードの進行状況は、システムの全体的な負荷によって異なります。
+
+ドライブファームウェアのオンラインアップグレード中に高速再構築プロセス中にボリューム転送が実行されると、転送されたボリュームで完全な再構築が開始されます。この処理にはかなりの時間がかかることがあります。完全な再構築に実際にかかる時間は、再構築処理中に発生するI/Oアクティビティの量、ボリュームグループ内のドライブ数、リビルドの優先度の設定、ドライブのパフォーマンスなど、いくつかの要因によって異なります。

@@ -1,0 +1,20 @@
+---
+permalink: sm-storage/what-is-data-assurance.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, DA, data assurance 
+summary: Data Assurance（DA）はT10 Protection Information（PI）標準を実装しています。I/Oパスでデータが転送される際に発生する可能性のあるエラーをチェックして修正することで、データの整合性が向上します。 
+---
+= Data Assuranceとは
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Data Assurance（DA）はT10 Protection Information（PI）標準を実装しています。I/Oパスでデータが転送される際に発生する可能性のあるエラーをチェックして修正することで、データの整合性が向上します。
+
+Data Assurance機能の一般的な用途として、コントローラとドライブ間のI/Oパスがチェックされます。DA機能はプールおよびボリュームグループのレベルで提供されます。
+
+この機能を有効にすると、ストレージアレイはボリューム内の各データブロックにエラーチェックコード（巡回冗長性チェック（CRC）とも呼ばれます）を追加します。データブロックが移動されると、ストレージアレイはこれらのCRCコードを使用して、転送中にエラーが発生したかどうかを判断します。破損している可能性があるデータはディスクに書き込まれず、ホストにも返されません。DA機能を使用する場合は、新しいボリュームの作成時にDA対応のプールまたはボリュームグループ（[候補]の表で[DA]が[はい]になっている）を選択します。
+
+これらのDA対応ボリュームは、必ずDAに対応したI/Oインターフェイスを使用しているホストに割り当ててください。DAに対応したI/Oインターフェイスには、Fibre Channel、SAS、iSCSI over TCP/IP、NVMe/FC、NVMe/IB、NVMe/RoCE、iSER over InfiniBand（iSCSI Extensions for RDMA/IB）があります。SRP over InfiniBandではDAはサポートされていません。

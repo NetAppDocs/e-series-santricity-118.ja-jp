@@ -1,0 +1,26 @@
+---
+permalink: sm-settings/how-add-on-features-work.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, add-on, features, 
+summary: アドオンはSystem Managerの標準構成には含まれていない機能であり、有効にするにはキーが必要になる場合があります。アドオン機能には、単一のプレミアム機能と、バンドルされた機能パックがあります。 
+---
+= アドオン機能の仕組み
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+アドオンはSystem Managerの標準構成には含まれていない機能であり、有効にするにはキーが必要になる場合があります。アドオン機能には、単一のプレミアム機能と、バンドルされた機能パックがあります。
+
+次に、プレミアム機能または機能パックを有効にする手順の概要を示します。
+
+. 次の情報を入手します。
++
+** シャーシのシリアル番号と機能有効識別子。機能をインストールするストレージアレイを識別します。これらの項目はSystem Managerで使用できます。
+** Feature Activation Code。機能の購入時にサポートサイトから入手できます。
+
+
+. ストレージプロバイダに問い合わせるか、Premium Feature Activationサイトにアクセスして機能キーを取得します。アクティブ化するシャーシのシリアル番号、イネーブルID、および機能コードを入力します。
+. System Managerで、機能キーファイルを使用してプレミアム機能または機能パックを有効にします。
+

@@ -1,0 +1,18 @@
+---
+permalink: sm-hardware/what-is-a-dhcp-server.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, dhcp, server, configuration, protocol, 
+summary: Dynamic Host Configuration Protocol（DHCP；動的ホスト構成プロトコル）は、インターネットプロトコル（IP）アドレスの割り当てタスクを自動化するプロトコルです。 
+---
+= DHCPサーバとは何ですか。
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Dynamic Host Configuration Protocol（DHCP；動的ホスト構成プロトコル）は、インターネットプロトコル（IP）アドレスの割り当てタスクを自動化するプロトコルです。
+
+TCP / IPネットワークに接続されている各デバイスには、一意のIPアドレスを割り当てる必要があります。これらのデバイスには、ストレージアレイ内のコントローラが含まれます。
+
+DHCPを使用しない場合は、ネットワーク管理者がこれらのIPアドレスを手動で入力します。DHCPでは、クライアントがTCP/IP操作を開始する必要がある場合、クライアントはアドレス情報の要求をブロードキャストします。DHCPサーバは要求を受信し、リース期間と呼ばれる指定された時間だけ新しいアドレスを割り当て、そのアドレスをクライアントに送信します。DHCPを使用すると、デバイスはネットワークに接続するたびに異なるIPアドレスを持つことができます。一部のシステムでは、デバイスが接続されている間でもデバイスのIPアドレスが変更されることがあります。

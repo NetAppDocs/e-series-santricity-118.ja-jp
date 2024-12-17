@@ -1,0 +1,40 @@
+---
+permalink: sm-storage/delete-snapshot-consistency-group.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, snapshot, consistency, group 
+summary: 不要になったSnapshot整合性グループを削除することができます。 
+---
+= Snapshot整合性グループの削除
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+不要になったSnapshot整合性グループを削除することができます。
+
+.開始する前に
+すべてのメンバーボリュームのイメージがバックアップまたはテストに必要なくなったことを確認します。
+
+.タスクの内容
+この処理を実行すると、Snapshot整合性グループに関連付けられているSnapshotイメージまたはスケジュールがすべて削除されます。
+
+.手順
+. メニューを選択します。Storage [Snapshots]。
+. スナップショット・コンシステンシ・グループ*タブを選択します
+. 削除するSnapshot整合性グループを選択し、メニューから「一般的でないタスク」「削除」を選択します。
++
+Confirm Delete Snapshot Consistency Group（スナップショット整合グループの削除の確認）ダイアログボックスが表示されます。
+
+. この処理を実行することを確認し、* Delete *をクリックします。
+
+
+.結果
+System Managerは次の処理を実行します。
+
+* Snapshot整合性グループから既存のSnapshotイメージとSnapshotボリュームをすべて削除します。
+* Snapshot整合性グループの各メンバーボリュームに関連付けられているSnapshotイメージをすべて削除します。
+* Snapshot整合性グループの各メンバーボリュームに関連付けられているSnapshotボリュームをすべて削除します。
+* Snapshot整合性グループの各メンバーボリュームに関連付けられているリザーブ容量をすべて削除します（選択した場合）。
+

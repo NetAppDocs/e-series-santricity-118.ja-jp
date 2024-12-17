@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-does-the-headroom-graph-show.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, headroom, graph, show, performance, capability 
+summary: '[ヘッドルーム]グラフには、ストレージアレイコントローラの残りのパフォーマンス容量が表示されます。このグラフは、ホームページおよびパフォーマンスタイルの物理ビュータブに表示されます。' 
+---
+= [ヘッドルーム]グラフには何が表示されますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+[ヘッドルーム]グラフには、ストレージアレイコントローラの残りのパフォーマンス容量が表示されます。このグラフは、ホームページおよびパフォーマンスタイルの物理ビュータブに表示されます。
+
+[ヘッドルーム]グラフには、ストレージシステム内の物理オブジェクトの残りのパフォーマンス容量が表示されます。グラフの特定のポイントにカーソルを合わせると、コントローラAとコントローラBの残りのIOPSおよびMiB/秒能力の割合が表示されます。

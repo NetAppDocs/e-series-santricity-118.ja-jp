@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/what-does-the-latency-graph-show.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, latency, graph, show, statistics, 
+summary: 'レイテンシのグラフには、ボリューム、ボリュームグループ、プールについて、レイテンシの統計がミリ秒（ms）単位で表示されます。 アプリケーション、ワークロードこのグラフは、[Logical View]、[Physical View]、[Applications & Workloads View]の各タブに表示されます。' 
+---
+= [レイテンシ]グラフには何が表示されますか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+レイテンシのグラフには、ボリューム、ボリュームグループ、プールについて、レイテンシの統計がミリ秒（ms）単位で表示されます。 アプリケーション、ワークロードこのグラフは、[Logical View]、[Physical View]、[Applications & Workloads View]の各タブに表示されます。
+
+レイテンシとは、データの読み取りまたは書き込み時に発生する遅延のことです。グラフの特定のポイントにカーソルを合わせると、その時点における次の値（ミリ秒）が表示されます。
+
+* 読み取り時間
+* 書き込み時間
+* 平均I/Oサイズ
+

@@ -1,0 +1,14 @@
+---
+permalink: sm-storage/why-would-i-need-to-create-a-host-cluster.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, create, host, cluster 
+summary: 同じボリュームセットへのアクセスを複数のホストで共有する場合は、ホストクラスタを作成する必要があります。通常、個 々 のホストには、ボリュームアクセスを調整するためのクラスタリングソフトウェアがインストールされています。 
+---
+= ホストクラスタを作成する必要があるのはどのような場合ですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+同じボリュームセットへのアクセスを複数のホストで共有する場合は、ホストクラスタを作成する必要があります。通常、個 々 のホストには、ボリュームアクセスを調整するためのクラスタリングソフトウェアがインストールされています。

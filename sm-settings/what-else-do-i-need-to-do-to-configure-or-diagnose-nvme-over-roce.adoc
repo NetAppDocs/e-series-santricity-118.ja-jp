@@ -1,0 +1,51 @@
+---
+permalink: sm-settings/what-else-do-i-need-to-do-to-configure-or-diagnose-nvme-over-roce.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, configure, diagnose, nvme, roce, 
+summary: 'NVMe over RoCEは、[ハードウェア]ページと[設定]ページで設定および管理できます。' 
+---
+= NVMe over RoCEを設定または診断するために他に必要な作業は何ですか？
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NVMe over RoCEは、[ハードウェア]ページと[設定]ページで設定および管理できます。
+
+[NOTE]
+====
+NVMe over RoCEを設定できるのは、ストレージアレイのコントローラにNVMe over RoCEポートが搭載されている場合のみです。
+
+====
+[cols="35h,~"]
+|===
+| アクション | 場所 
+
+
+ a| 
+NVMe over RoCEポートの設定
+ a| 
+. 「 * ハードウェア * 」を選択します。
+. [コントローラとコンポーネント]*タブを選択します。
+. コントローラを選択します。
+. NVMe over RoCE ポートの設定 * を選択します。
+
+
+または
+
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして* NVMe over RoCE settings *（NVMe over RoCE設定*）に進み、* Configure NVMe over RoCE Ports *（NVMe over RoCEポートの設定*）を選択します。
+
+
+
+
+ a| 
+NVMe over Fabrics統計の表示
+ a| 
+. メニューを選択します。[設定][システム]。
+. 下にスクロールして* NVMe over RoCE settings *を表示し、* View NVMe over Fabrics Statistics *を選択します。
+
+
+|===

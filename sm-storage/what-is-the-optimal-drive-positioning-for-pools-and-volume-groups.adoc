@@ -1,0 +1,16 @@
+---
+permalink: sm-storage/what-is-the-optimal-drive-positioning-for-pools-and-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, optimal, drive, positioning, pools, volume groups 
+summary: プールとボリュームグループを作成する場合は、上部と下部のドライブスロットの間でドライブ選択のバランスを取るようにしてください。 
+---
+= プールとボリュームグループに最適なドライブの配置はどれですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+プールとボリュームグループを作成する場合は、上部と下部のドライブスロットの間でドライブ選択のバランスを取るようにしてください。
+
+EF600およびEF300コントローラでは、ドライブスロット0~11を1つのPCIブリッジに接続し、スロット12~23を別のPCIブリッジに接続します。最適なパフォーマンスを実現するには、上部スロットと下部スロットのドライブ数がほぼ同じになるように、ドライブ選択のバランスを調整する必要があります。この配置により、ボリュームが必要以上に早く帯域幅制限に達しないようにします。

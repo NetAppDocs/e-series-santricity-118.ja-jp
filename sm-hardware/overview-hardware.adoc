@@ -1,0 +1,55 @@
+---
+permalink: sm-hardware/overview-hardware.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, hardware, page, 
+summary: '[ハードウェア]ページでコンポーネントのステータスを確認し、それらのコンポーネントに関連するいくつかの機能を実行できます。' 
+---
+= ハードウェアコンポーネントの概要
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+[ハードウェア]ページでコンポーネントのステータスを確認し、それらのコンポーネントに関連するいくつかの機能を実行できます。
+
+
+
+== 管理できるコンポーネント
+
+コンポーネントのステータスを確認し、これらのコンポーネントに関連するいくつかの機能を実行できます。
+
+* **シェルフ**--a_shelf_は、ストレージアレイのハードウェア(コントローラ、電源/ファンキャニスター、ドライブ)を含むコンポーネントです。シェルフのサイズは3つあり、それぞれ最大で12本、24本、60本のドライブを収容できます。
+* **コントローラ**--a_controller_は'ストレージ・アレイと管理機能を実装するハードウェアとファームウェアの組み合わせですキャッシュメモリ、ドライブのサポート、およびホスト接続用のポートが含まれます。
+* **ドライブ**--a_drive_に は、ハードディスクドライブ（HDD）またはソリッドステートドライブ（SSD）を使用できます。シェルフのサイズに応じて、最大12本、24本、または60本のドライブをシェルフに設置できます。
+
+
+詳細：
+
+* link:hardware-page-overview.html["ハードウェアページ"]
+* link:hardware-terminology.html["ハードウェアの用語"]
+
+
+
+
+== ハードウェアコンポーネントの表示方法を教えてください。
+
+[ハードウェア]ページに移動します。このページには、ストレージアレイの物理コンポーネントが図で示されています。アレイシェルフの前面ビューと背面ビューを切り替えるには、シェルフビューの右上にある*[ドライブ]*タブまたは*[コントローラ]*タブを選択します。
+
+詳細：
+
+* link:view-shelf-component-status-and-settings.html["シェルフコンポーネントのステータスと設定の表示"]
+* link:view-controller-settings.html["コントローラ設定の表示"]
+* link:view-drive-status-and-settings.html["ドライブのステータスと設定の表示"]
+
+
+
+
+= 関連情報
+
+ハードウェアに関連する概念の詳細については、以下を参照してください。
+
+* link:controller-states.html["コントローラの状態"]
+* link:drive-states.html["ドライブの状態"]
+* link:what-is-shelf-loss-protection-and-drawer-loss-protection.html["シェルフ損失の保護とドロワー損失の保護"]
+

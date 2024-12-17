@@ -1,0 +1,27 @@
+---
+permalink: sm-storage/delete-snapshot-schedule.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, delete, snapshot, schedule 
+summary: Snapshotイメージを収集する必要がなくなった場合は、既存のSnapshotスケジュールを削除できます。 
+---
+= Snapshotスケジュールの削除
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Snapshotイメージを収集する必要がなくなった場合は、既存のSnapshotスケジュールを削除できます。
+
+.タスクの内容
+Snapshotスケジュールを削除しても、関連付けられているSnapshotイメージは削除されません。ある時点でSnapshotイメージの収集が再開される可能性がある場合は、Snapshotスケジュールを削除するのではなく一時停止してください。
+
+.手順
+. メニューを選択します。Storage [Snapshots]。
+. [* Schedules *（スケジュール*）]タブをクリックします
+. 削除するSnapshotスケジュールを選択し、処理を確定します。
+
+
+.結果
+ベースボリュームまたはSnapshot整合性グループからすべてのスケジュール設定が削除されます。

@@ -1,0 +1,26 @@
+---
+permalink: sm-settings/access-management-tokens-revoke.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access management, revoke tokens 
+summary: トークンが侵害されたと判断した場合は、すべてのアクセストークンを取り消すことができます。 
+---
+= アクセストークンの取り消し
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+トークンが侵害されたと判断した場合、またはアクセストークンの署名と検証に使用する暗号キーに対して手動でキーローテーションを実行する場合は、すべてのアクセストークンを取り消すことができます。
+
+この操作では、トークンに署名するために使用されるキーが再生成されます。キーをリセットすると、_ALL_Issuedトークンがただちに無効になります。ストレージアレイはトークンを追跡しないため、個 々 のトークンを取り消すことはできません。
+
+.手順
+. メニューを選択します。Settings [Access Management]。
+. ［* Access Tokens *］タブを選択します。
+. 「* Revoke all Access Tokens（すべてのアクセストークンを無効にする
+. ダイアログボックスで、*はい*をクリックします。
+
+
+すべてのトークンを取り消した後、新しいトークンを作成してすぐに使用できます。

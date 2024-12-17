@@ -1,0 +1,55 @@
+---
+permalink: sm-mirroring/overview-mirroring-async.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, ARVM, asynchronous, mirroring, firmware, 
+summary: 非同期ミラーリング機能は、ローカルストレージアレイとリモートストレージアレイの間でデータをレプリケーションするための、コントローラレベルのファームウェアベースのメカニズムを提供します。 
+---
+= 非同期ミラーリングの概要
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+非同期ミラーリング機能は、ローカルストレージアレイとリモートストレージアレイの間でデータをレプリケーションするための、コントローラレベルのファームウェアベースのメカニズムを提供します。
+
+
+
+== 非同期ミラーリングとは
+
+非同期ミラーリング_は、特定の時点におけるプライマリボリュームの状態をキャプチャし、前回のイメージキャプチャ以降に変更されたデータのみをコピーします。プライマリサイトはただちに更新でき、セカンダリサイトは帯域幅の許す限り更新できます。情報はキャッシュされ、あとでネットワークリソースが利用可能になると送信されます。
+
+非同期ミラーリングはボリューム単位で作成されますが、グループレベルで管理されるため、個別のリモートミラーボリュームを特定のストレージアレイ上の任意のプライマリボリュームに関連付けることができます。このタイプのミラーリングはノンストップオペレーションの要求を満たすのに最適です。一般に、定期的なプロセスをはるかに効率的に実行できます。
+
+詳細：
+
+* link:how-asynchronous-mirroring-works.html["非同期ミラーリングの仕組み"]
+* link:asynchronous-terminology.html["非同期ミラーリングに関する用語"]
+* link:asynchronous-mirror-status.html["非同期ミラーのステータス"]
+* link:volume-ownership-sync.html["ボリューム所有権"]
+* link:role-change-of-a-mirror-consistency-group.html["ミラー整合性グループのロール変更"]
+
+
+
+
+== 非同期ミラーリングを設定するにはどうすればよいですか？
+
+アレイ間の初期ミラーリングの設定は、Unified Managerインターフェイスを使用して実行する必要があります。設定が完了したら、System Managerでミラーペアと整合グループを管理できます。
+
+詳細：
+
+* link:requirements-for-using-asynchronous-mirroring.html["非同期ミラーリングを使用するための要件"]
+* link:workflow-for-mirroring-a-volume-asynchronously.html["ホリユウムノヒトウキミラアリンクワアクフロオ"]
+* link:../um-manage/create-asynchronous-mirrored-pair-um.html["非同期ミラーペアの作成（Unified Manager）"]
+
+
+
+
+== 関連情報
+
+非同期ミラーリングに関連する概念の詳細については、以下を参照してください。
+
+* link:what-do-i-need-to-know-before-creating-a-mirror-consistency-group.html["ミラー整合性グループを作成する際の注意事項"]
+* link:asynchronous-mirroring-what-do-i-need-to-know-before-creating-a-mirrored-pair.html["ミラーペアを作成する際の注意事項"]
+* link:how-does-asynchronous-mirroring-differ-from-synchronous-mirroring-async.html["非同期ミラーリングと同期ミラーリングの違い"]
+

@@ -1,0 +1,41 @@
+---
+permalink: sm-support/view-autosupport-log.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, view, autosupport, log 
+summary: AutoSupportログには、ステータス、ディスパッチ履歴、およびAutoSupportディスパッチの配信中に発生したエラーに関する情報が記録されます。 
+---
+= AutoSupportログの表示
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+AutoSupportログには、ステータス、ディスパッチ履歴、およびAutoSupportディスパッチの配信中に発生したエラーに関する情報が記録されます。
+
+.タスクの内容
+複数のログファイルが存在する可能性があります。現在のログファイルが200KBに達するとアーカイブされ、新しいログファイルが作成されます。アーカイブされたログファイルの名前はです `ASUPMessages.n`。_n_には1～9の整数を指定します。複数のログファイルが存在する場合は、最新のログと前のログのどちらを表示するかを選択できます。
+
+* *current log *--キャプチャされた最新のイベントのリストを表示します
+* *アーカイブログ*--以前のイベントのリストを表示します
+
+
+.手順
+. メニューを選択AutoSupport します。[Support Center]>[Support]（サポートセンター）タブ。
+. 「* AutoSupport ログを表示*」を選択します。
++
+ダイアログボックスが表示され、現在のAutoSupportログが一覧表示されます。
+
+. 以前のAutoSupport ログを表示するには、[*アーカイブ済み*]ラジオ・ボタンを選択し、[* AutoSupport ログの選択*]ドロップダウン・リストからログを選択します。
++
+[Archived]オプションは、ストレージアレイにアーカイブログが存在する場合にのみ表示されます。
+
++
+選択したAutoSupportログがダイアログボックスに表示されます。
+
+. *オプション：* AutoSupport ログを検索するには、*検索*ボックスにキーワードを入力し、*検索*をクリックします。
++
+再度*検索*をクリックして、用語のその他の出現箇所を検索します。
+
+

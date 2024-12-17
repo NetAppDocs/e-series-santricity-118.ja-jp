@@ -1,0 +1,16 @@
+---
+permalink: sm-support/what-is-a-health-image.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, health, images, controller, memory, processor 
+summary: ヘルスイメージは、コントローラのプロセッサメモリの生のデータダンプです。テクニカルサポートがコントローラの問題を診断する際に使用します。 
+---
+= ヘルスイメージとは
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ヘルスイメージは、コントローラのプロセッサメモリの生データダンプです。テクニカルサポートは、コントローラの問題を診断するために使用できます。
+
+ファームウェアが特定のエラーを検出すると、自動的にヘルスイメージが生成されます。トラブルシューティングのシナリオによっては、テクニカルサポートから、ヘルスイメージファイルを取得して送信するように要求されることがあります。

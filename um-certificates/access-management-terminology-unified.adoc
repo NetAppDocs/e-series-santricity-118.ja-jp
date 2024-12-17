@@ -1,0 +1,82 @@
+---
+permalink: um-certificates/access-management-terminology-unified.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, access management, terminology 
+summary: SANtricity Unified Managerに関連するアクセス管理の用語を次に示します。 
+---
+= アクセス管理の用語
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Managerに関連するアクセス管理の用語を次に示します。
+
+[cols="25h,~"]
+|===
+| 期間 | 製品説明 
+
+
+ a| 
+Active Directory
+ a| 
+Active Directory（AD）は、Windowsドメインネットワーク用にLDAPを使用するMicrosoftのディレクトリサービスです。
+
+
+
+ a| 
+バインド
+ a| 
+バインド操作は、ディレクトリサーバに対してクライアントを認証するために使用されます。通常はアカウントとパスワードのクレデンシャルが必要ですが、匿名のバインド処理が可能なサーバもあります。
+
+
+
+ a| 
+カリフォルニア州
+ a| 
+認証局（CA）は、インターネットセキュリティのためにデジタル証明書と呼ばれる電子ドキュメントを発行する信頼されたエンティティです。証明書でWebサイトの所有者を識別することにより、クライアントとサーバの間のセキュアな接続が確立されます。
+
+
+
+ a| 
+証明書
+ a| 
+証明書はセキュリティ上の目的でサイトの所有者を識別するもので、攻撃者による偽装を防止します。証明書には、サイトの所有者に関する情報と、この情報を証明（署名）する信頼されたエンティティのIDが含まれています。
+
+
+
+ a| 
+LDAP
+ a| 
+Lightweight Directory Access Protocol（LDAP）は、分散されたディレクトリ情報サービスにアクセスして管理するためのアプリケーションプロトコルです。このプロトコルを使用すると、さまざまなアプリケーションやサービスをLDAPサーバに接続してユーザを検証できます。
+
+
+
+ a| 
+RBAC
+ a| 
+ロールベースアクセス制御（RBAC）は、個 々 のユーザのロールに基づいてコンピュータリソースまたはネットワークリソースへのアクセスを制御する方法です。Unified Managerには事前定義されたロールがあります
+
+
+
+ a| 
+SAML
+ a| 
+Security Assertion Markup Language（SAML）は、2つのエンティティ間の認証と許可に使用されるXMLベースの標準規格です。SAMLでは多要素認証が可能で、ユーザはIDを証明するために2つ以上の項目（パスワードやフィンガープリントなど）を指定する必要があります。ストレージアレイに組み込まれているSAML機能は、アイデンティティのアサーション、認証、および許可に関してSAML2.0に準拠しています。
+
+
+
+ a| 
+SSO
+ a| 
+シングルサインオン（SSO）は、1組のログインクレデンシャルで複数のアプリケーションにアクセスできるようにする認証サービスです。
+
+
+
+ a| 
+Web Services Proxy
+ a| 
+Web Services Proxyは標準のHTTPSメカニズムを介したアクセスを提供し、管理者がストレージアレイの管理サービスを設定できるようにします。このプロキシは、WindowsホストまたはLinuxホストにインストールできます。Unified ManagerインターフェイスはWeb Services Proxyで使用できます。
+
+|===

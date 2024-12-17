@@ -1,0 +1,72 @@
+---
+permalink: um-manage/storage-array-status.html 
+sidebar: sidebar 
+keywords: SANtricity, Unified Manager, E-Series, storage, array, status, communication, 
+summary: Unified Managerには、検出された各ストレージアレイのステータスが表示されます。 
+---
+= ストレージアレイのステータスの表示
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Unified Managerには、検出された各ストレージアレイのステータスが表示されます。
+
+[* Manage-All*]ページに移動します。このページでは、Web Services Proxyとそのストレージアレイの間の接続のステータスを確認できます。
+
+ステータスインジケータについては、次の表で説明します。
+
+[cols="25h,~"]
+|===
+| ステータス | を示します。 
+
+
+ a| 
+最適
+ a| 
+ストレージアレイが最適な状態です。証明書の問題はなく、パスワードは有効です。
+
+
+
+ a| 
+無効なパスワード
+ a| 
+無効なストレージアレイパスワードが指定されました。
+
+
+
+ a| 
+信頼されない証明書
+ a| 
+HTTPS証明書が自己署名証明書でインポートされていないか、CA署名証明書でルート証明書と中間CA証明書がインポートされていないため、ストレージアレイとの1つ以上の接続が信頼されていません。
+
+
+
+ a| 
+要注意
+ a| 
+ストレージアレイにユーザによる修正が必要な問題があります。
+
+
+
+ a| 
+ロックダウン
+ a| 
+ストレージアレイがロックダウン状態です。
+
+
+
+ a| 
+不明
+ a| 
+ストレージアレイに一度も接続されていません。この状況は、Web Services Proxyが起動中でまだストレージアレイに接続していない場合や、ストレージアレイがオフラインでWeb Services Proxyの起動後に一度も接続されていない場合に発生します。
+
+
+
+ a| 
+オフライン
+ a| 
+Web Services Proxyは以前にストレージアレイに接続していましたが、現在はすべての接続が失われています。
+
+|===

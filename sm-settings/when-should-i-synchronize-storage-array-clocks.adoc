@@ -1,0 +1,21 @@
+---
+permalink: sm-settings/when-should-i-synchronize-storage-array-clocks.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, synchronize, storage, array, clock, 
+summary: System Managerに表示されるタイムスタンプが管理クライアント（ブラウザからSystem Managerにアクセスしているコンピュータ）に表示されるタイムスタンプと一致していない場合は、ストレージアレイのコントローラクロックを手動で同期する必要があります。このタスクを実行する必要があるのは、System ManagerでNTP（ネットワークタイムプロトコル）が有効になっていない場合だけです。 
+---
+= ストレージアレイのクロックを同期する必要があるのはどのような場合ですか。
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+System Managerに表示されるタイムスタンプが管理クライアント（ブラウザからSystem Managerにアクセスしているコンピュータ）に表示されるタイムスタンプと一致していない場合は、ストレージアレイのコントローラクロックを手動で同期する必要があります。このタスクを実行する必要があるのは、System ManagerでNTP（ネットワークタイムプロトコル）が有効になっていない場合だけです。
+
+[NOTE]
+====
+クロックを手動で同期する代わりに、NTPサーバを使用することを強く推奨します。NTPは、SNTP（Simple Network Time Protocol）を使用して自動的にクロックを外部サーバと同期します。
+
+====
+同期ステータスは、[システム]ページからアクセスできる[ストレージアレイクロックの同期]ダイアログボックスで確認できます。ダイアログボックスに表示される時刻が一致しない場合は、同期を実行します。このダイアログボックスを定期的に表示して、コントローラクロックの時刻表示がずれて同期されていないかどうかを確認できます。

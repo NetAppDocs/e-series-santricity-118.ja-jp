@@ -1,0 +1,22 @@
+---
+permalink: sm-storage/how-do-i-match-the-host-ports-to-a-host.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, match, host, ports, 
+summary: ホストを手動で作成する場合は、まず、ホストで使用可能な適切なHost Bus Adapter（HBA；ホストバスアダプタ）ユーティリティを使用して、ホストにインストールされている各HBAに関連付けられているホストポート識別子を特定する必要があります。 
+---
+= ホストポートをホストに一致させる方法を教えてください。
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ホストを手動で作成する場合は、まず、ホストで使用可能な適切なHost Bus Adapter（HBA；ホストバスアダプタ）ユーティリティを使用して、ホストにインストールされている各HBAに関連付けられているホストポート識別子を特定する必要があります。
+
+この情報が手元にある場合は、[ホストの作成]ダイアログに表示されるリストから、ストレージアレイにログインしているホストポート識別子を選択します。
+
+[NOTE]
+====
+作成するホストに対応する適切なホストポート識別子を選択してください。誤ったホストポート識別子を関連付けると、別のホストからこのデータに意図せずアクセスする可能性があります。
+
+====

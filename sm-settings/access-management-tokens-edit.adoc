@@ -1,0 +1,32 @@
+---
+permalink: sm-settings/access-management-tokens-edit.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, access management, edit tokens 
+summary: 有効期限や新しいトークンを作成する機能など、アクセストークンの設定を編集できます。 
+---
+= アクセストークン設定の編集
+:allow-uri-read: 
+:experimental: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+有効期限や新しいトークンを作成する機能など、アクセストークンの設定を編集できます。
+
+.手順
+. メニューを選択します。Settings [Access Management]。
+. ［* Access Tokens *］タブを選択します。
+. [アクセストークン設定の表示/編集]を選択します。
+. ダイアログボックスでは、次のいずれかまたは両方のタスクを実行できます。
++
+** トークンの作成を有効または無効にします。
+** 既存のトークンの有効期限を変更します。
++
+
+NOTE: ［*アクセストークンを有効にする*］設定をオフにすると、トークンの作成とトークン認証の両方が無効になります。後でこの設定を再度有効にすると、期限切れになっていないトークンを再利用できます。既存のトークンをすべて完全に無効にする場合は、を参照してくださいlink:access-management-tokens-revoke.html["アクセストークンの取り消し"]。
+
+
+
+. [ 保存（ Save ） ] をクリックします。
+

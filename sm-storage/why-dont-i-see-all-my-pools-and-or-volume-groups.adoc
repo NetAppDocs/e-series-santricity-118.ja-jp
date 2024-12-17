@@ -1,0 +1,21 @@
+---
+permalink: sm-storage/why-dont-i-see-all-my-pools-and-or-volume-groups.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, pools, volume groups 
+summary: ボリュームの移動先として指定できないプールまたはボリュームグループはリストに表示されません。 
+---
+= プールやボリュームグループが一部表示されないのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ボリュームの移動先として指定できないプールまたはボリュームグループはリストに表示されません。
+
+プールまたはボリュームグループを使用できない理由は次のとおりです。
+
+* プールまたはボリュームグループのData Assurance（DA）機能が一致しません。
+* プールまたはボリュームグループの状態が最適でない。
+* プールまたはボリュームグループの容量が小さすぎます。
+

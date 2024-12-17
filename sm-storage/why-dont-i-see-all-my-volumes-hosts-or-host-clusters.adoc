@@ -1,0 +1,26 @@
+---
+permalink: sm-storage/why-dont-i-see-all-my-volumes-hosts-or-host-clusters.html 
+sidebar: sidebar 
+keywords: SANtricity, System Manager, E-Series, volumes, hosts, host clusters, data assurance 
+summary: 'ベースボリュームでDAが有効なSnapshotボリュームをData Assurance（DA）に対応していないホストに割り当てることはできません。DA対応でないホストにSnapshotボリュームを割り当てるには、ベースボリュームのDAを無効にする必要があります。"' 
+---
+= ボリューム、ホスト、またはホストクラスタが一部表示されないのはなぜですか？
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+ベースボリュームでDAが有効なSnapshotボリュームをData Assurance（DA）に対応していないホストに割り当てることはできません。DAに対応していないホストにSnapshotボリュームを割り当てるには、ベースボリュームでDAを無効にする必要があります。
+
+Snapshotボリュームを割り当てるホストについては、次のガイドラインを考慮してください。
+
+* DAに対応していないI/Oインターフェイスを介してストレージアレイに接続されているホストはDAに対応していません。
+* ホストメンバーが1つでもDA対応でない場合、ホストクラスタはDA対応ではありません。
+
+
+[NOTE]
+====
+Snapshot（整合性グループ、Snapshotグループ、Snapshotイメージ、Snapshotボリューム）、ボリュームコピー、およびミラーに関連付けられているボリュームでは、DAを無効にすることはできません。ベースボリュームでDAを無効にする前に、関連付けられているリザーブ容量とSnapshotオブジェクトをすべて削除する必要があります。
+
+====
