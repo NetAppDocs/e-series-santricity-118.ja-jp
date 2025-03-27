@@ -11,7 +11,7 @@ summary: アクセス管理を使用してSANtricity Unified Managerでのユー
 
 
 [role="lead"]
-アクセス管理を使用してUnified Managerでユーザ認証を確立します。
+アクセス管理を使用してSANtricity Unified Managerでのユーザ認証を確立する。
 
 
 

@@ -12,7 +12,7 @@ summary: SANtricity System Managerで管理できない従来のストレージ�
 
 
 [role="lead"]
-System Managerで管理できない従来型ストレージアレイにプライマリボリュームを作成した場合は、System Managerでこのアレイにセカンダリボリュームを作成できます。
+SANtricity System Managerで管理できない従来のストレージアレイにプライマリボリュームを作成した場合は、SANtricity System Managerを使用してそのアレイにセカンダリボリュームを作成できます。
 
 .タスクの内容
 別のインターフェイスを使用する従来のアレイとSystem Managerで管理可能な新しいアレイの間で、非同期ミラーリングを実行できます。

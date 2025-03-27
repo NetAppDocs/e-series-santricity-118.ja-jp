@@ -11,7 +11,7 @@ summary: アクセス管理では、SANtricity Unified Managerでユーザ認証
 
 
 [role="lead"]
-アクセス管理は、Unified Managerでユーザ認証を設定する方法の1つです。
+アクセス管理では、SANtricity Unified Managerでユーザ認証を設定することができます。
 
 
 

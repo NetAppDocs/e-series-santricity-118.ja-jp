@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: SANtricity, System Manager, E-Series, certificates, external, key, management, 
 summary: 外部キー管理では、ストレージアレイとキー管理サーバの間の認証用に2種類の証明書をインポートして、2つのエンティティが相互に信頼できるようにします。 
 ---
-= 外部キー管理用にSystem Managerにアップロードする必要がある証明書を確認するにはどうすればよいですか？
+= 外部キー管理用にSANtricity System Managerにアップロードする必要がある証明書を確認するにはどうすればよいですか？
 :allow-uri-read: 
 :icons: font
 :imagesdir: ../media/
