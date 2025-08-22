@@ -70,34 +70,34 @@ Unified Managerの場合は、Web Services Proxyがインストールされて�
  a| 
 Red Hat Enterprise Linux（RHEL）
  a| 
-7.x、8.x/64ビット
+8.x(SP8)、9.x(SP2)/ 64ビット
 
 
 
  a| 
 SUSE Linux Enterprise Server（SLES）
  a| 
-12.x、15.x/64ビット
+12.x(SP4、SP5)、15.x(SP4、SP5)/ 64ビット
 
 
 
  a| 
 Oracle Linux（OL）
  a| 
-7.x、8.x/64ビット
+8.x(U8)、9.x(U2)/ 64ビット
 
 
 
  a| 
 Windows Server
  a| 
-2016年、2019年、2022年/ 64ビット
+2019、2022 / 64ビット
 
 
 
  a| 
 Ubuntu
  a| 
-18.04、20.04/64ビット
+20.04、22.04 / 64ビット
 
 |===
